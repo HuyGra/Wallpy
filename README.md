@@ -13,7 +13,7 @@ Step 2: Enjoy.
 If you are not satisfied with my example file, you can do the following:<br/>
 Step 1: Call Wallpy Library using import WallpyLib.<br/>
 Step 2: Create Windows<br/>
-Step 3: Use syntax WallpyLib.Wallpy("The name of the newly created windows").<br/>
+Step 3: Use syntax WallpyLib.Wallpy("The name of the newly created window").<br/>
 Step 4: Enjoy.<br/>
 # Some of my words
 My english is very bad, please sympathize with that if you don't understand anywhere.<br/>
