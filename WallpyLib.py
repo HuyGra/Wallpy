@@ -15,7 +15,7 @@ class Wallpy():
 		for x in range(0, 10000):
 			time.sleep(0.1)
 			win32gui.EnumWindows(self.GetHandleWallpaperWindows,None)
-			if self.hwndChild != 0:
+			if self.hwndChild != "":
 				print("IntPtr Worker = ", self.worker)
 				print("IntPtr hwndChild = ", self.hwndChild)
 				print("Done!!!")
