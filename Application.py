@@ -21,8 +21,6 @@ def SimpleMediaPlayer(video):
 	em = player.event_manager()
 	em.event_attach(vlc.EventType.MediaPlayerEndReached, Play)
 	player.play()
-	time.sleep(2)
-	f = wmi.WMI()
 	WallpyLib.Wallpy("VLC (Direct3D11 output)")
 	while True:
 		if loop:
