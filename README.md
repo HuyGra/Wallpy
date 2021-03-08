@@ -5,7 +5,7 @@ It is based on the following blog: https://www.codeproject.com/Articles/856020/D
 # Request
 Windows Version : Windows 8 or higher.<br/>
 Python Version : Python 3 or higher.<br/>
-pywin32 library installed.
+Pywin32 library installed.
 # Uses
 Step 1: In the Application.py file, change the path of video to the path of any video you like.<br/>
 Step 2: Enjoy.
