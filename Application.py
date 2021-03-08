@@ -1,10 +1,8 @@
 '''Here is an example. I hope you can do better.'''
 import WallpyLib
-import threading, time, wmi
 import vlc
-from tkinter import *
 	
-video = "Fubuki_Sirakami.mp4" #You video
+video = "Test~1.mp4" #You video
 loop = False
 def Play(event):
 	global loop
