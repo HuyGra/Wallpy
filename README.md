@@ -1,20 +1,20 @@
 # Wallpy 
-Set the video as your wallpaper using Python [In development].<br/>
-You can download it for reference.<br/>
-Link Fubuki wallpaper: https://mylivewallpapers.com/anime/fubuki-shirakami-qhd-live-wallpaper/.<br/>
-It is based on the following blog: https://www.codeproject.com/Articles/856020/Draw-Behind-Desktop-Icons-in-Windows-plus
+Set the video as your wallpaper using Python.
 # Request
 Windows Version : Windows 8 or higher.<br/>
 Python Version : Python 3 or higher.<br/>
 Pywin32 library installed.
 # Uses
-Step 1: In the Application.py file, change the path of video to the path of any video you like.<br/>
-Step 2: Enjoy.
+Step 1: Drop you video wallpaper to wallpaper folder.<br/>
+Step 2: Go to setting folder. Open wallpaper.txt file.<br/>
+Step 3: In wallpaper.txt. Change name video in wallpaper folder (Note: the file extension must be included).<br/>
+Step 4: Open cmd, run application.py.<br/>
+Step 5: Enjoy.
 # Extend
 If you are not satisfied with my example file, you can do the following:<br/>
 Step 1: Call Wallpy Library using import WallpyLib.<br/>
 Step 2: Create Windows.<br/>
-Step 3: Use syntax WallpyLib.Wallpy("The name of the newly created window").<br/>
+Step 3: Use syntax WallpyLib.Wallpy("The name of the newly created window" or "IntPtr").<br/>
 Step 4: Enjoy.<br/>
 # Some of my words
 My english is very bad, please sympathize with that if you don't understand anywhere.<br/>
