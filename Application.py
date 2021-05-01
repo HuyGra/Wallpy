@@ -11,3 +11,6 @@ while True:
         break
     except:
         pass
+while True:
+    #do somthing
+    pass
