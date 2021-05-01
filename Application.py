@@ -1,4 +1,4 @@
-import WallpyLib, os, win32gui, tkinter, time
+import WallpyLib, os
 
 os.startfile("WallpyVideoPlayer.exe")
 
