@@ -16,7 +16,7 @@ Step 1: Call Wallpy Library using import WallpyLib.<br/>
 Step 2: Create Windows.<br/>
 Step 3: Use syntax WallpyLib.Wallpy("The name of the newly created window" or "IntPtr").<br/>
 Step 4: Enjoy.<br/>
-#Note
+# Note
 Currently, to turn off the program completely, you must go to the task manager to turn off the program called WallpyVideoPlayer. I will fix this soon.
 # Some of my words
 My english is very bad, please sympathize with that if you don't understand anywhere.<br/>
