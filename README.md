@@ -17,7 +17,7 @@ Step 2: Create Windows.<br/>
 Step 3: Use syntax WallpyLib.Wallpy("The name of the newly created window" or "IntPtr").<br/>
 Step 4: Enjoy.<br/>
 # Note
-Currently, to turn off the program completely, you must go to the task manager to turn off the program called WallpyVideoPlayer. I will fix this soon.
+Currently, to turn off the program completely, you must go to the task manager to turn off the WallpyVideoPlayer program. I will fix this soon.
 # Some of my words
 My english is very bad, please sympathize with that if you don't understand anywhere.<br/>
 This is a version developed by me, it definitely can't avoid bugs. But I believe knowledgeable programmers will help me. Thanks!!!<br/>
