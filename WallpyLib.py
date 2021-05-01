@@ -12,7 +12,7 @@ class Wallpy():
 		progman = win32gui.FindWindow("Progman", None)
 		win32gui.SendMessageTimeout(progman, 0x052C, 0, 0, win32con.SMTO_NORMAL, 1000)
 		win32gui.EnumWindows(self.GetHandleWorkerW,None)
-		if IntPrt != None:
+		if IntPtr != None:
 			win32gui.SetParent(IntPtr, self.worker)
 		else:
 			win32gui.EnumWindows(self.GetHandleWallpaperWindows,None)
