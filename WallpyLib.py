@@ -5,7 +5,7 @@ import win32gui, win32con, time
 class Wallpy():
 	"""Class of Wallpy"""
 	# Looks simple, right =))
-	def __init__(self, WindowsName=None, IntPrt=None):
+	def __init__(self, WindowsName=None, IntPtr=None):
 		self.worker = ""
 		self.hwndChild = ""
 		self.WindowsName = WindowsName
@@ -13,7 +13,7 @@ class Wallpy():
 		win32gui.SendMessageTimeout(progman, 0x052C, 0, 0, win32con.SMTO_NORMAL, 1000)
 		win32gui.EnumWindows(self.GetHandleWorkerW,None)
 		if IntPrt != None:
-			win32gui.SetParent(IntPrt, self.worker)
+			win32gui.SetParent(IntPtr, self.worker)
 		else:
 			win32gui.EnumWindows(self.GetHandleWallpaperWindows,None)
 			# print(self.hwndChild)
