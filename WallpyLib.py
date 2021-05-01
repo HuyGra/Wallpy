@@ -5,24 +5,19 @@ import win32gui, win32con, time
 class Wallpy():
 	"""Class of Wallpy"""
 	# Looks simple, right =))
-	def __init__(self, WindowsName=""):
+	def __init__(self, WindowsName=None, IntPrt=None):
 		self.worker = ""
 		self.hwndChild = ""
 		self.WindowsName = WindowsName
 		progman = win32gui.FindWindow("Progman", None)
 		win32gui.SendMessageTimeout(progman, 0x052C, 0, 0, win32con.SMTO_NORMAL, 1000)
 		win32gui.EnumWindows(self.GetHandleWorkerW,None)
-		for x in range(0, 10000):
-			time.sleep(0.1)
+		if IntPrt != None:
+			win32gui.SetParent(IntPrt, self.worker)
+		else:
 			win32gui.EnumWindows(self.GetHandleWallpaperWindows,None)
-			if self.hwndChild != "":
-				print("IntPtr Worker = ", self.worker)
-				print("IntPtr hwndChild = ", self.hwndChild)
-				print("Done!!!")
-				win32gui.SetParent(self.hwndChild, self.worker)
-				break
-			elif x == 10000:
-				print("Not Found")
+			# print(self.hwndChild)
+			win32gui.SetParent(self.hwndChild, self.worker)
 		
 
 	def GetHandleWorkerW(self, hwnd, ctx):
